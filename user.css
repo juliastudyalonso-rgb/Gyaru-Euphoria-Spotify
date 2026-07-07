@@ -1,0 +1,40 @@
+/* =======================================================
+   GYARU EUPHORIA
+   Criado por Julia
+======================================================= */
+
+:root{
+    --gyaru-pink:#ff4fb6;
+    --hot-pink:#ff7cc8;
+    --dark:#0d0a0f;
+    --glass:rgba(255,255,255,.05);
+}
+
+/* Fundo principal */
+
+body{
+    background:var(--dark);
+}
+
+/* Cards */
+
+.main-card-card{
+    background:var(--glass);
+    border-radius:20px;
+    border:1px solid rgba(255,79,182,.4);
+    backdrop-filter:blur(15px);
+}
+
+/* Hover */
+
+.main-card-card:hover{
+    transform:scale(1.02);
+    transition:.25s ease;
+    box-shadow:0 0 15px var(--gyaru-pink);
+}
+
+/* Botões */
+
+button{
+    border-radius:50px;
+}
